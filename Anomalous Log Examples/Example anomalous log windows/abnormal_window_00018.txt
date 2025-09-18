@@ -1,0 +1,21 @@
+Label: Abnormal
+1131685687 2005.11.10 bn257 Nov 10 21:08:07 bn257/bn257 kernel: [KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0015)
+1131685687 2005.11.10 bn257 Nov 10 21:08:07 bn257/bn257 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))
+1131685687 2005.11.10 bn257 Nov 10 21:08:07 bn257/bn257 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))
+1131685687 2005.11.10 tbird-admin1 Nov 10 21:08:07 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_B7] datasource
+1131685687 2005.11.10 tbird-admin1 Nov 10 21:08:07 local@tbird-admin1 VFS: file-max limit 65536 reached
+1131685687 2005.11.10 tbird-admin1 Nov 10 21:08:07 local@tbird-admin1 VFS: file-max limit 65536 reached
+1131685687 2005.11.10 tbird-admin1 Nov 10 21:08:07 local@tbird-admin1 VFS: file-max limit 65536 reached
+1131685687 2005.11.10 tbird-admin1 Nov 10 21:08:07 local@tbird-admin1 VFS: file-max limit 65536 reached
+1131685687 2005.11.10 tbird-admin1 Nov 10 21:08:07 local@tbird-admin1 VFS: file-max limit 65536 reached
+1131685687 2005.11.10 tbird-admin1 Nov 10 21:08:07 local@tbird-admin1 VFS: file-max limit 65536 reached
+1131685687 2005.11.10 tbird-admin1 Nov 10 21:08:07 local@tbird-admin1 VFS: file-max limit 65536 reached
+1131685687 2005.11.10 tbird-admin1 Nov 10 21:08:07 local@tbird-admin1 VFS: file-max limit 65536 reached
+1131685687 2005.11.10 tbird-admin1 Nov 10 21:08:07 local@tbird-admin1 VFS: file-max limit 65536 reached
+1131685687 2005.11.10 tbird-admin1 Nov 10 21:08:07 local@tbird-admin1 VFS: file-max limit 65536 reached
+1131685687 2005.11.10 tbird-admin1 Nov 10 21:08:07 local@tbird-admin1 VFS: file-max limit 65536 reached
+1131685687 2005.11.10 tbird-admin1 Nov 10 21:08:07 local@tbird-admin1 VFS: file-max limit 65536 reached
+1131685687 2005.11.10 tbird-admin1 Nov 10 21:08:07 local@tbird-admin1 VFS: file-max limit 65536 reached
+1131685688 2005.11.10 bn257 Nov 10 21:08:08 bn257/bn257 kernel: THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state
+1131685688 2005.11.10 bn257 Nov 10 21:08:08 bn257/bn257 kernel: THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state
+1131685688 2005.11.10 bn257 Nov 10 21:08:08 bn257/bn257 kernel: THH(1): mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[1597]: XHH_hob_process_local_mad: Device in FATAL state

@@ -1,0 +1,21 @@
+Label: Abnormal
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Node 0 Normal: 0*4kB 1*8kB 113*16kB 0*32kB 1*64kB 1*128kB 0*256kB 1*512kB 0*1024kB 0*2048kB 0*4096kB = 2520kB
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Node 0 Normal: 0*4kB 1*8kB 113*16kB 0*32kB 1*64kB 1*128kB 0*256kB 1*512kB 0*1024kB 0*2048kB 0*4096kB = 2520kB
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Node 0 Normal: 0*4kB 1*8kB 113*16kB 0*32kB 1*64kB 1*128kB 0*256kB 1*512kB 0*1024kB 0*2048kB 0*4096kB = 2520kB
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Out of Memory: Killed process 10105 (cc1plus).
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Out of Memory: Killed process 10406 (ld).
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Out of Memory: Killed process 10498 (ld).
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Out of Memory: Killed process 436 (python).
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Out of Memory: Killed process 9819 (ld).
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Out of Memory: Killed process 9868 (ld).
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Swap cache: add 106190746, delete 106190568, find 15491805/25368956, race 20+121
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Swap cache: add 106190746, delete 106190568, find 15491805/25368956, race 20+121
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Swap cache: add 106190746, delete 106190568, find 15491805/25368956, race 20+121
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Swap cache: add 106190746, delete 106190568, find 15491805/25368956, race 20+121
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Swap cache: add 106190746, delete 106190568, find 15491805/25368956, race 20+121
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: Swap cache: add 106190746, delete 106190568, find 15491805/25368956, race 20+121
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: cpu 0 cold: low 0, high 2, batch 1
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: cpu 0 cold: low 0, high 2, batch 1
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: cpu 0 cold: low 0, high 2, batch 1
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: cpu 0 cold: low 0, high 2, batch 1
+1131671701 2005.11.10 #8# Nov 10 17:15:01 #8#/#8# kernel: cpu 0 cold: low 0, high 2, batch 1

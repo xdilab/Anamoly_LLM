@@ -1,0 +1,21 @@
+Label: Abnormal
+1131659865 2005.11.10 #25# Nov 10 13:57:45 #25#/#25# kernel: <ffffffffa022b14f>{:obdclass:class_handle_ioctl+5605}
+1131659865 2005.11.10 #25# Nov 10 13:57:45 #25#/#25# kernel: <ffffffffa0250297>{:obdclass:class_decref+2250} <ffffffffa025136d>{:obdclass:class_detach+1761}
+1131659865 2005.11.10 #25# Nov 10 13:57:45 #25#/#25# kernel: <ffffffffa025937a>{:obdclass:class_process_config+6109}
+1131659865 2005.11.10 #25# Nov 10 13:57:45 #25#/#25# kernel: <ffffffffa05f81a5>{:obdecho:echo_client_cleanup+911}
+1131659865 2005.11.10 #25# Nov 10 13:57:45 #25#/#25# kernel: 0000000000000000 ffffffff802ffa89 0000000000000206 ffffffff00000074
+1131659865 2005.11.10 #25# Nov 10 13:57:45 #25#/#25# kernel: Call Trace:<ffffffff802ffa89>{thread_return+79} <ffffffff80131b48>{__wake_up+54}
+1131659865 2005.11.10 #25# Nov 10 13:57:45 #25#/#25# kernel: Lustre: 12066:0:(linux-debug.c:132:portals_debug_dumpstack()) showing stack for process 12066
+1131659865 2005.11.10 #25# Nov 10 13:57:45 #25#/#25# kernel: Lustre: 12066:0:(linux-debug.c:96:portals_run_upcall()) Invoked portals upcall /usr/lib/lustre/portals_upcall LBUG,/f3home/#13#/build.2.6/buildir/BUILD/lustre-#12#/lustre/obdecho/echo_client.c,echo_client_cleanup,1382
+1131659865 2005.11.10 #25# Nov 10 13:57:45 #25#/#25# kernel: LustreError: 11921:0:(class_obd.c:315:class_handle_ioctl()) OBD ioctl: device not setup 27
+1131659865 2005.11.10 #25# Nov 10 13:57:45 #25#/#25# kernel: LustreError: 12066:0:(echo_client.c:1382:echo_client_cleanup()) ASSERTION(eco->eco_refcount == 0) failed
+1131659865 2005.11.10 #25# Nov 10 13:57:45 #25#/#25# kernel: LustreError: 12066:0:(module.c:46:kportal_assertion_failed()) LBUG
+1131659865 2005.11.10 #25# Nov 10 13:57:45 #25#/#25# kernel: LustreError: dumping log to /tmp/lustre-log-#25#.1131656265.12066
+1131659865 2005.11.10 #25# Nov 10 13:57:45 #25#/#25# kernel: lctl R running task 0 12066 12060 (NOTLB)
+1131659867 2005.11.10 cn729 Nov 10 13:57:47 cn729/cn729 ntpd[28377]: synchronized to 10.100.18.250, stratum 3
+1131659867 2005.11.10 en212 Nov 10 13:57:47 en212/en212 ntpd[2245]: synchronized to 10.100.34.250, stratum 3
+1131659867 2005.11.10 tbird-admin1 Nov 10 13:57:47 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_B7] datasource
+1131659868 2005.11.10 cn17 Nov 10 13:57:48 cn17/cn17 ntpd[15640]: synchronized to 10.100.18.250, stratum 3
+1131659868 2005.11.10 #33# Nov 10 13:57:48 #33#/#33# kernel: LustreError: 30423:0:(obd_config.c:636:class_process_config()) no device for: ECHO_client
+1131659868 2005.11.10 #33# Nov 10 13:57:48 #33#/#33# kernel: LustreError: 30423:0:(obd_config.c:636:class_process_config()) previously skipped 1 similar messages
+1131659868 2005.11.10 tbird-admin1 Nov 10 13:57:48 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_B6] datasource

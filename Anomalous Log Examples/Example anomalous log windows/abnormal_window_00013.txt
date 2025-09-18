@@ -1,0 +1,21 @@
+Label: Abnormal
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: <ffffffff8022e239>{poke_blanked_console+162} <ffffffff80230578>{vt_console_print+727}
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: <ffffffff80230578>{vt_console_print+727} <ffffffff8013d6a0>{__mod_timer+293}
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: <ffffffffa00be63f>{:sunrpc:rpc_clnt_sigunmask+63} <ffffffffa00be63f>{:sunrpc:rpc_clnt_sigunmask+63}
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: <ffffffffa00fde4c>{:nfs:__nfs_revalidate_inode+1697}
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: <ffffffffa0226bab>{:obdclass:obd_ioctl_getdata+4259}
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: <ffffffffa022b14f>{:obdclass:class_handle_ioctl+5605}
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: <ffffffffa0250297>{:obdclass:class_decref+2250} <ffffffffa025136d>{:obdclass:class_detach+1761}
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: <ffffffffa025937a>{:obdclass:class_process_config+6109}
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: <ffffffffa05f81a5>{:obdecho:echo_client_cleanup+911}
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: 0000000000000000 ffffffff802ffa89 0000000000000246 ffffffff8013da8e
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: Call Trace:<ffffffff802ffa89>{thread_return+79} <ffffffff8013da8e>{run_timer_softirq+385}
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: Lustre: 12080:0:(linux-debug.c:132:portals_debug_dumpstack()) showing stack for process 12080
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: Lustre: 12080:0:(linux-debug.c:96:portals_run_upcall()) Invoked portals upcall /usr/lib/lustre/portals_upcall LBUG,/f3home/#13#/build.2.6/buildir/BUILD/lustre-#12#/lustre/obdecho/echo_client.c,echo_client_cleanup,1382
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: LustreError: 11916:0:(class_obd.c:315:class_handle_ioctl()) OBD ioctl: device not setup 25
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: LustreError: 12080:0:(echo_client.c:1382:echo_client_cleanup()) ASSERTION(eco->eco_refcount == 0) failed
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: LustreError: 12080:0:(module.c:46:kportal_assertion_failed()) LBUG
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: LustreError: dumping log to /tmp/lustre-log-#25#.1131656337.12080
+1131659937 2005.11.10 #25# Nov 10 13:58:57 #25#/#25# kernel: lctl R running task 0 12080 12072 (NOTLB)
+1131659937 2005.11.10 tbird-admin1 Nov 10 13:58:57 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_C6] datasource
+1131659939 2005.11.10 tbird-sm1 Nov 10 13:58:59 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************

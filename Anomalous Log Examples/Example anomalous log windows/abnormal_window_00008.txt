@@ -1,0 +1,21 @@
+Label: Abnormal
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: Call Trace:<ffffffff802ffa89>{thread_return+79} <ffffffffa00c2496>{:sunrpc:rpc_wake_up_next+350}
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: Lustre: 30415:0:(linux-debug.c:132:portals_debug_dumpstack()) showing stack for process 30415
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: Lustre: 30415:0:(linux-debug.c:96:portals_run_upcall()) Invoked portals upcall /usr/lib/lustre/portals_upcall LBUG,/f3home/#13#/build.2.6/buildir/BUILD/lustre-#12#/lustre/obdecho/echo_client.c,echo_client_cleanup,1382
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: LustreError: 30289:0:(class_obd.c:315:class_handle_ioctl()) OBD ioctl: device not setup 29
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: LustreError: 30415:0:(echo_client.c:1382:echo_client_cleanup()) ASSERTION(eco->eco_refcount == 0) failed
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: LustreError: 30415:0:(module.c:46:kportal_assertion_failed()) LBUG
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: LustreError: dumping log to /tmp/lustre-log-#33#.1131656169.30415
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: lctl R running task 0 30415 30411 (NOTLB)
+1131659769 2005.11.10 tbird-admin1 Nov 10 13:56:09 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_A3] datasource
+1131659770 2005.11.10 cn242 Nov 10 13:56:10 cn242/cn242 ntpd[10744]: synchronized to 10.100.16.250, stratum 3
+1131659770 2005.11.10 cn372 Nov 10 13:56:10 cn372/cn372 ntpd[10326]: synchronized to 10.100.18.250, stratum 3
+1131659770 2005.11.10 tbird-admin1 Nov 10 13:56:10 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_B3] datasource
+1131659771 2005.11.10 bn548 Nov 10 13:56:11 bn548/bn548 ntpd[32055]: synchronized to 10.100.18.250, stratum 3
+1131659772 2005.11.10 bn703 Nov 10 13:56:12 bn703/bn703 ntpd[21338]: synchronized to 10.100.18.250, stratum 3
+1131659772 2005.11.10 bn969 Nov 10 13:56:12 bn969/bn969 ntpd[15934]: synchronized to 10.100.18.250, stratum 3
+1131659772 2005.11.10 tbird-admin1 Nov 10 13:56:12 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_A5] datasource
+1131659772 2005.11.10 tbird-admin1 Nov 10 13:56:12 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_A8] datasource
+1131659772 2005.11.10 tbird-admin1 Nov 10 13:56:12 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_C8] datasource
+1131659773 2005.11.10 bn407 Nov 10 13:56:13 bn407/bn407 ntpd[29371]: synchronized to 10.100.18.250, stratum 3
+1131659773 2005.11.10 cn207 Nov 10 13:56:13 cn207/cn207 ntpd[20031]: synchronized to 10.100.18.250, stratum 3

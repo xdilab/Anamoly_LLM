@@ -1,0 +1,21 @@
+Label: Abnormal
+1131659764 2005.11.10 #9# Nov 10 13:56:04 #9#/#9# kernel: Lustre: 14212:0:(linux-debug.c:96:portals_run_upcall()) Invoked portals upcall /usr/lib/lustre/portals_upcall LBUG,/f3home/#13#/build.2.6/buildir/BUILD/lustre-#12#/lustre/obdecho/echo_client.c,echo_client_cleanup,1382
+1131659764 2005.11.10 #9# Nov 10 13:56:04 #9#/#9# kernel: LustreError: 13743:0:(class_obd.c:315:class_handle_ioctl()) OBD ioctl: device not setup 27
+1131659764 2005.11.10 #9# Nov 10 13:56:04 #9#/#9# kernel: LustreError: 14212:0:(echo_client.c:1382:echo_client_cleanup()) ASSERTION(eco->eco_refcount == 0) failed
+1131659764 2005.11.10 #9# Nov 10 13:56:04 #9#/#9# kernel: LustreError: 14212:0:(module.c:46:kportal_assertion_failed()) LBUG
+1131659764 2005.11.10 #9# Nov 10 13:56:04 #9#/#9# kernel: LustreError: dumping log to /tmp/lustre-log-#9#.1131656164.14212
+1131659764 2005.11.10 #9# Nov 10 13:56:04 #9#/#9# kernel: lctl R running task 0 14212 14206 (NOTLB)
+1131659764 2005.11.10 tbird-admin1 Nov 10 13:56:04 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_D4] datasource
+1131659765 2005.11.10 tbird-admin1 Nov 10 13:56:05 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_C4] datasource
+1131659768 2005.11.10 bn497 Nov 10 13:56:08 bn497/bn497 ntpd[28724]: synchronized to 10.100.18.250, stratum 3
+1131659768 2005.11.10 #33# Nov 10 13:56:08 #33#/#33# kernel: LustreError: 30413:0:(obd_config.c:636:class_process_config()) no device for: ECHO_client
+1131659768 2005.11.10 tbird-admin1 Nov 10 13:56:08 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: RRD_update (/var/lib/ganglia/rrds/D Nodes/dn161/pkts_out.rrd): illegal attempt to update using time 1131656168 when last update time is 1131656168 (minimum one second step)
+1131659768 2005.11.10 tbird-admin1 Nov 10 13:56:08 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_D6] datasource
+1131659769 2005.11.10 cn255 Nov 10 13:56:09 cn255/cn255 ntpd[10531]: synchronized to 10.100.18.250, stratum 3
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: 0000000300000000 00000100bff29f40 0000000000000000 0000000000000001
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: 0000000300000000 ffffffffa00df0c0
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: <ffffffff8011003e>{system_call+126}
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: <ffffffff801114a8>{show_stack+241} <ffffffffa01a16eb>{:libcfs:kportal_assertion_failed+519}
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: <ffffffff80131b48>{__wake_up+54} <ffffffff80157cc6>{mempool_free_slab+0}
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: <ffffffff80131b48>{__wake_up+54} <ffffffffa00c2d8b>{:sunrpc:__rpc_execute+867}
+1131659769 2005.11.10 #33# Nov 10 13:56:09 #33#/#33# kernel: <ffffffff8013334e>{autoremove_wake_function+0} <ffffffff8013334e>{autoremove_wake_function+0}

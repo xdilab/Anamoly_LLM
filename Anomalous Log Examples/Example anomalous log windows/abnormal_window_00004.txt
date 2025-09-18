@@ -1,0 +1,21 @@
+Label: Abnormal
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: <ffffffff8013d6a0>{__mod_timer+293} <ffffffff8022e239>{poke_blanked_console+162}
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: <ffffffff8013d6a0>{__mod_timer+293} <ffffffff8022e239>{poke_blanked_console+162}
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: <ffffffff801419f1>{do_sigaction+490} <ffffffff80185a59>{sys_ioctl+853}
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: <ffffffff80146bf3>{__kernel_text_address+26} <ffffffff8011136c>{show_trace+375}
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: <ffffffff8022e239>{poke_blanked_console+162} <ffffffff80230578>{vt_console_print+727}
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: <ffffffff80230578>{vt_console_print+727} <ffffffff80135e1a>{release_console_sem+369}
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: <ffffffff80230578>{vt_console_print+727} <ffffffff801f16a6>{vgacon_cursor+0}
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: <ffffffffa00c2d8b>{:sunrpc:__rpc_execute+867} <ffffffff8013d6a0>{__mod_timer+293}
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: <ffffffffa0226bab>{:obdclass:obd_ioctl_getdata+4259}
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: <ffffffffa022b14f>{:obdclass:class_handle_ioctl+5605}
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: <ffffffffa0250297>{:obdclass:class_decref+2250} <ffffffffa025136d>{:obdclass:class_detach+1761}
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: <ffffffffa025937a>{:obdclass:class_process_config+6109}
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: <ffffffffa05f81a5>{:obdecho:echo_client_cleanup+911}
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: 0000000000000000 ffffffff802ffa89 0000000000000206 ffffffffa00c2496
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: Call Trace:<ffffffff802ffa89>{thread_return+79} <ffffffffa00c2496>{:sunrpc:rpc_wake_up_next+350}
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: Lustre: 14194:0:(linux-debug.c:132:portals_debug_dumpstack()) showing stack for process 14194
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: LustreError: 13745:0:(class_obd.c:315:class_handle_ioctl()) OBD ioctl: device not setup 29
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: LustreError: 14194:0:(echo_client.c:1382:echo_client_cleanup()) ASSERTION(eco->eco_refcount == 0) failed
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: LustreError: 14194:0:(module.c:46:kportal_assertion_failed()) LBUG
+1131659664 2005.11.10 #9# Nov 10 13:54:24 #9#/#9# kernel: LustreError: dumping log to /tmp/lustre-log-#9#.1131656064.14194

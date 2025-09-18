@@ -1,0 +1,21 @@
+Label: Abnormal
+1131672412 2005.11.10 an919 Nov 10 17:26:52 an919/an919 ntpd[2257]: synchronized to 10.100.6.250, stratum 3
+1131672412 2005.11.10 bn228 Nov 10 17:26:52 bn228/bn228 netfs: Mounting NFS filesystems: succeeded
+1131672412 2005.11.10 bn472 Nov 10 17:26:52 bn472/bn472 netfs: Mounting NFS filesystems: failed
+1131672412 2005.11.10 cn17 Nov 10 17:26:52 cn17/cn17 ntpd[2257]: kernel time sync enabled 0001
+1131672412 2005.11.10 cn178 Nov 10 17:26:52 cn178/cn178 ntpd[2259]: kernel time sync enabled 0001
+1131672412 2005.11.10 cn266 Nov 10 17:26:52 cn266/cn266 ntpd[2261]: kernel time sync disabled 0041
+1131672412 2005.11.10 dn333 Nov 10 17:26:52 dn333/dn333 ntpd[2257]: kernel time sync disabled 0041
+1131672412 2005.11.10 dn333 Nov 10 17:26:52 dn333/dn333 ntpd[2257]: synchronized to 10.100.26.250, stratum 3
+1131672412 2005.11.10 dn42 Nov 10 17:26:52 dn42/dn42 ntpd[2262]: kernel time sync enabled 0001
+1131672412 2005.11.10 dn602 Nov 10 17:26:52 dn602/dn602 ntpd[2245]: kernel time sync enabled 0001
+1131672412 2005.11.10 dn602 Nov 10 17:26:52 dn602/dn602 ntpd[2245]: synchronized to 10.100.26.250, stratum 3
+1131672412 2005.11.10 dn651 Nov 10 17:26:52 dn651/dn651 ntpd[2243]: kernel time sync disabled 0041
+1131672412 2005.11.10 dn651 Nov 10 17:26:52 dn651/dn651 ntpd[2243]: synchronized to 10.100.26.250, stratum 3
+1131672412 2005.11.10 dn956 Nov 10 17:26:52 dn956/dn956 ntpd[2257]: kernel time sync disabled 0041
+1131672412 2005.11.10 dn956 Nov 10 17:26:52 dn956/dn956 ntpd[2257]: synchronized to 10.100.24.250, stratum 3
+1131672413 2005.11.10 an81 Nov 10 17:26:53 an81/an81 ntpd[2260]: kernel time sync disabled 0041
+1131672413 2005.11.10 bn228 Nov 10 17:26:53 bn228/bn228 acpid: acpid startup succeeded
+1131672413 2005.11.10 bn228 Nov 10 17:26:53 bn228/bn228 date: Thu Nov 10 18:26:35 MST 2005
+1131672413 2005.11.10 bn228 Nov 10 17:26:53 bn228/bn228 fsck: /1: clean, 179575/1026144 files, 1020903/2048287 blocks
+1131672413 2005.11.10 bn228 Nov 10 17:26:53 bn228/bn228 fsck: /boot1: clean, 42/64256 files, 24905/257008 blocks

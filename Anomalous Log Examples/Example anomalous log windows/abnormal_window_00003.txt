@@ -1,0 +1,21 @@
+Label: Abnormal
+1131659527 2005.11.10 #9# Nov 10 13:52:07 #9#/#9# kernel: LustreError: 13967:0:(module.c:46:kportal_assertion_failed()) LBUG
+1131659527 2005.11.10 #9# Nov 10 13:52:07 #9#/#9# kernel: LustreError: dumping log to /tmp/lustre-log-#9#.1131655927.13967
+1131659527 2005.11.10 #9# Nov 10 13:52:07 #9#/#9# kernel: lctl R running task 0 13967 13966 (NOTLB)
+1131659527 2005.11.10 dn286 Nov 10 13:52:07 dn286/dn286 ntpd[12636]: synchronized to 10.100.28.250, stratum 3
+1131659528 2005.11.10 bn11 Nov 10 13:52:08 bn11/bn11 ntpd[23118]: synchronized to 10.100.18.250, stratum 3
+1131659528 2005.11.10 bn301 Nov 10 13:52:08 bn301/bn301 ntpd[23488]: synchronized to 10.100.22.250, stratum 3
+1131659528 2005.11.10 cn865 Nov 10 13:52:08 cn865/cn865 ntpd[28684]: synchronized to 10.100.18.250, stratum 3
+1131659529 2005.11.10 cn50 Nov 10 13:52:09 cn50/cn50 ntpd[15399]: synchronized to 10.100.18.250, stratum 3
+1131659529 2005.11.10 dn309 Nov 10 13:52:09 dn309/dn309 -- #26#[2613]: LOGIN ON tty1 BY #26#
+1131659529 2005.11.10 dn309 Nov 10 13:52:09 dn309/dn309 login(pam_unix)[2613]: session opened for user #26# by LOGIN(uid=0)
+1131659529 2005.11.10 dn885 Nov 10 13:52:09 dn885/dn885 ntpd[2810]: synchronized to 10.100.28.250, stratum 3
+1131659530 2005.11.10 cn997 Nov 10 13:52:10 cn997/cn997 ntpd[19070]: synchronized to 10.100.20.250, stratum 3
+1131659530 2005.11.10 dn954 Nov 10 13:52:10 dn954/dn954 ntpd[32762]: synchronized to 10.100.24.250, stratum 3
+1131659530 2005.11.10 tbird-admin1 Nov 10 13:52:10 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_C4] datasource
+1131659531 2005.11.10 cn755 Nov 10 13:52:11 cn755/cn755 ntpd[28621]: synchronized to 10.100.22.250, stratum 3
+1131659531 2005.11.10 tbird-admin1 Nov 10 13:52:11 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_C5] datasource
+1131659533 2005.11.10 bn949 Nov 10 13:52:13 bn949/bn949 ntpd[14775]: synchronized to 10.100.18.250, stratum 3
+1131659533 2005.11.10 dn309 Nov 10 13:52:13 dn309/dn309 su(pam_unix)[7355]: session opened for user root by #26#(uid=0)
+1131659533 2005.11.10 dn309 Nov 10 13:52:13 dn309/dn309 sudo: #26# : TTY=tty1 ; PWD=/home/#26# ; USER=root ; COMMAND=/bin/su -
+1131659533 2005.11.10 tbird-admin1 Nov 10 13:52:13 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_A3] datasource

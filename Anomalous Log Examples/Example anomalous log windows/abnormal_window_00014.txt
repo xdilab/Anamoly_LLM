@@ -1,0 +1,21 @@
+Label: Abnormal
+1131664000 2005.11.10 tbird-admin1 Nov 10 15:06:40 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_B8] datasource
+1131664002 2005.11.10 bn264 Nov 10 15:06:42 bn264/bn264 ntpd[24710]: synchronized to 10.100.16.250, stratum 3
+1131664002 2005.11.10 tbird-admin1 Nov 10 15:06:42 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_C2] datasource
+1131664002 2005.11.10 tbird-sm1 Nov 10 15:06:42 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 acpid: acpid startup succeeded
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 i2c /dev entries driver
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 mount: : server is down.
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 mount: mount to NFS server 'nfs1' failed
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 netfs: Mounting NFS filesystems: failed
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 netfs: Mounting other filesystems: succeeded
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 rc: Starting lm_sensors: succeeded
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 smartd: smartd startup failed
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 smartd[1577]: Configuration file /etc/smartd.conf parsed.
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 smartd[1577]: Device: /dev/sda, Bad IEC (SMART) mode page, err=5, skip device
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 smartd[1577]: Device: /dev/sda, opened
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 smartd[1577]: Home page is http://#20#/
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 smartd[1577]: Opened configuration file /etc/smartd.conf
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 smartd[1577]: Unable to register SCSI device /dev/sda at line 1 of file /etc/smartd.conf
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 smartd[1577]: Unable to register device /dev/sda (no Directive -d removable). Exiting.
+1131664003 2005.11.10 cadmin1 Nov 10 15:06:43 src@cadmin1 smartd[1577]: smartd version 5.33 [x86_64-redhat-linux-gnu] Copyright (C) 2002-4 Bruce Allen

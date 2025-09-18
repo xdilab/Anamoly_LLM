@@ -1,0 +1,21 @@
+Label: Abnormal
+1131659876 2005.11.10 #9# Nov 10 13:57:56 #9#/#9# kernel: <ffffffffa05f81a5>{:obdecho:echo_client_cleanup+911}
+1131659876 2005.11.10 #9# Nov 10 13:57:56 #9#/#9# kernel: 0000000000000000 ffffffff802ffa89 0000000000000206 ffffffffa00c2496
+1131659876 2005.11.10 #9# Nov 10 13:57:56 #9#/#9# kernel: Call Trace:<ffffffff802ffa89>{thread_return+79} <ffffffffa00c2496>{:sunrpc:rpc_wake_up_next+350}
+1131659876 2005.11.10 #9# Nov 10 13:57:56 #9#/#9# kernel: Lustre: 14234:0:(linux-debug.c:132:portals_debug_dumpstack()) showing stack for process 14234
+1131659876 2005.11.10 #9# Nov 10 13:57:56 #9#/#9# kernel: Lustre: 14234:0:(linux-debug.c:96:portals_run_upcall()) Invoked portals upcall /usr/lib/lustre/portals_upcall LBUG,/f3home/#13#/build.2.6/buildir/BUILD/lustre-#12#/lustre/obdecho/echo_client.c,echo_client_cleanup,1382
+1131659876 2005.11.10 #9# Nov 10 13:57:56 #9#/#9# kernel: LustreError: 13751:0:(class_obd.c:315:class_handle_ioctl()) OBD ioctl: device not setup 25
+1131659876 2005.11.10 #9# Nov 10 13:57:56 #9#/#9# kernel: LustreError: 14234:0:(echo_client.c:1382:echo_client_cleanup()) ASSERTION(eco->eco_refcount == 0) failed
+1131659876 2005.11.10 #9# Nov 10 13:57:56 #9#/#9# kernel: LustreError: 14234:0:(module.c:46:kportal_assertion_failed()) LBUG
+1131659876 2005.11.10 #9# Nov 10 13:57:56 #9#/#9# kernel: LustreError: dumping log to /tmp/lustre-log-#9#.1131656276.14234
+1131659876 2005.11.10 #9# Nov 10 13:57:56 #9#/#9# kernel: lctl R running task 0 14234 14225 (NOTLB)
+1131659876 2005.11.10 dn287 Nov 10 13:57:56 dn287/dn287 ntpd[31604]: synchronized to 10.100.24.250, stratum 3
+1131659876 2005.11.10 tbird-admin1 Nov 10 13:57:56 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_B2] datasource
+1131659877 2005.11.10 bn837 Nov 10 13:57:57 bn837/bn837 ntpd[21755]: synchronized to 10.100.18.250, stratum 3
+1131659877 2005.11.10 tbird-admin1 Nov 10 13:57:57 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_B3] datasource
+1131659877 2005.11.10 tbird-sm1 Nov 10 13:57:57 src@tbird-sm1 ib_sm.x[24904]: [INFO]: Configuration caused by multicast membership change
+1131659877 2005.11.10 tbird-sm1 Nov 10 13:57:57 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1131659879 2005.11.10 bn202 Nov 10 13:57:59 bn202/bn202 ntpd[19808]: synchronized to 10.100.14.250, stratum 3
+1131659879 2005.11.10 tbird-admin1 Nov 10 13:57:59 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_D4] datasource
+1131659880 2005.11.10 bn630 Nov 10 13:58:00 bn630/bn630 ntpd[23931]: synchronized to 10.100.18.250, stratum 3
+1131659880 2005.11.10 tbird-sm1 Nov 10 13:58:00 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1792]: async events require sweep

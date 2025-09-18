@@ -1,0 +1,21 @@
+Label: Abnormal
+1131659870 2005.11.10 #33# Nov 10 13:57:50 #33#/#33# kernel: <ffffffffa00fde4c>{:nfs:__nfs_revalidate_inode+1697}
+1131659870 2005.11.10 #33# Nov 10 13:57:50 #33#/#33# kernel: 0000000000000000 ffffffff802ffa89 0000000000000206 ffffffffa00c2496
+1131659870 2005.11.10 #33# Nov 10 13:57:50 #33#/#33# kernel: Call Trace:<ffffffff802ffa89>{thread_return+79} <ffffffffa00c2496>{:sunrpc:rpc_wake_up_next+350}
+1131659870 2005.11.10 #33# Nov 10 13:57:50 #33#/#33# kernel: Lustre: 30427:0:(linux-debug.c:132:portals_debug_dumpstack()) showing stack for process 30427
+1131659870 2005.11.10 #33# Nov 10 13:57:50 #33#/#33# kernel: LustreError: 30427:0:(echo_client.c:1382:echo_client_cleanup()) ASSERTION(eco->eco_refcount == 0) failed
+1131659870 2005.11.10 #33# Nov 10 13:57:50 #33#/#33# kernel: LustreError: 30427:0:(module.c:46:kportal_assertion_failed()) LBUG
+1131659870 2005.11.10 #33# Nov 10 13:57:50 #33#/#33# kernel: lctl R running task 0 30427 30421 (NOTLB)
+1131659871 2005.11.10 #9# Nov 10 13:57:51 #9#/#9# kernel: LustreError: 14228:0:(obd_config.c:636:class_process_config()) no device for: ECHO_client
+1131659871 2005.11.10 #9# Nov 10 13:57:51 #9#/#9# kernel: LustreError: 14228:0:(obd_config.c:636:class_process_config()) previously skipped 1 similar messages
+1131659871 2005.11.10 cn910 Nov 10 13:57:51 cn910/cn910 ntpd[11176]: synchronized to 10.100.22.250, stratum 3
+1131659871 2005.11.10 #33# Nov 10 13:57:51 #33#/#33# kernel: <ffffffff8011003e>{system_call+126}
+1131659871 2005.11.10 #33# Nov 10 13:57:51 #33#/#33# kernel: <ffffffff801114a8>{show_stack+241} <ffffffffa01a16eb>{:libcfs:kportal_assertion_failed+519}
+1131659871 2005.11.10 #33# Nov 10 13:57:51 #33#/#33# kernel: <ffffffff80136048>{vprintk+498} <ffffffff80136048>{vprintk+498}
+1131659871 2005.11.10 #33# Nov 10 13:57:51 #33#/#33# kernel: <ffffffff801360f2>{printk+141} <ffffffff801360f2>{printk+141}
+1131659871 2005.11.10 #33# Nov 10 13:57:51 #33#/#33# kernel: <ffffffff80146bf3>{__kernel_text_address+26} <ffffffff8011136c>{show_trace+375}
+1131659871 2005.11.10 #33# Nov 10 13:57:51 #33#/#33# kernel: <ffffffff80230578>{vt_console_print+727} <ffffffff80135e1a>{release_console_sem+369}
+1131659871 2005.11.10 #33# Nov 10 13:57:51 #33#/#33# kernel: <ffffffff803004bb>{__lock_text_start+47} <ffffffff80185a59>{sys_ioctl+853}
+1131659871 2005.11.10 #33# Nov 10 13:57:51 #33#/#33# kernel: <ffffffffa0226bab>{:obdclass:obd_ioctl_getdata+4259}
+1131659871 2005.11.10 #33# Nov 10 13:57:51 #33#/#33# kernel: <ffffffffa022b14f>{:obdclass:class_handle_ioctl+5605}
+1131659871 2005.11.10 #33# Nov 10 13:57:51 #33#/#33# kernel: <ffffffffa0250297>{:obdclass:class_decref+2250} <ffffffffa025136d>{:obdclass:class_detach+1761}
